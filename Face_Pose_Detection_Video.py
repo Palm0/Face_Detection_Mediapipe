@@ -646,7 +646,7 @@ def main():
         # funktioniert nur für Video 001 010 011,012,047,048,039
         # Gibt gewisse schwächen und erknnt auch nicht immer das Gesicht oder die pose deswegen musste ich einen try and catch bauen
         starttime = time.time()
-        print(get_Data_holistic(file,2,100,1000))
+        #print(get_Data_holistic(file,2,100,1000))
         lasttime = time.time()
         timer(starttime,lasttime)
         
